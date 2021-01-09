@@ -22,5 +22,17 @@ public class MainApp extends Application {
 
 
 
+    public void start(Stage primaryStage) {
 
+        FXMLLoader loader = new FXMLLoader();
+        try {
+            loader.setLocation(this.getClass().getResource("/view/WeatherView.fxml"));
+
+            primaryStage.getIcons().add(new Image("/images/icon.png"));
+            primaryStage.setScene(new Scene(loader.load()));
+            primaryStage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }
