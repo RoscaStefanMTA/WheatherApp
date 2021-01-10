@@ -1,0 +1,12 @@
+18::ro.mta.se.lab.weatherApp.model.HttpClient::execute::Sat Jan 09 13:07:41 EET 2021::Code: 200, Message: OK
+18::ro.mta.se.lab.weatherApp.controller.WeatherController$2::handle::Sat Jan 09 13:07:41 EET 2021::Display information about: Bucharest(Temperature: 3.31°C Humidity: 81 % Pressure: 1020 hpa)
+18::ro.mta.se.lab.weatherApp.model.HttpClient::execute::Sat Jan 09 13:07:44 EET 2021::Code: 200, Message: OK
+18::ro.mta.se.lab.weatherApp.controller.WeatherController$2::handle::Sat Jan 09 13:07:44 EET 2021::Display information about: Sibiu(Temperature: -3.0°C Humidity: 93 % Pressure: 1019 hpa)
+18::ro.mta.se.lab.weatherApp.controller.WeatherController$1::handle::Sat Jan 09 13:07:46 EET 2021::Select country: France
+18::ro.mta.se.lab.weatherApp.model.HttpClient::execute::Sat Jan 09 13:07:47 EET 2021::Code: 200, Message: OK
+18::ro.mta.se.lab.weatherApp.controller.WeatherController$2::handle::Sat Jan 09 13:07:47 EET 2021::Display information about: Paris(Temperature: 1.95°C Humidity: 87 % Pressure: 1023 hpa)
+18::ro.mta.se.lab.weatherApp.model.HttpClient::execute::Sat Jan 09 13:07:49 EET 2021::Code: 200, Message: OK
+18::ro.mta.se.lab.weatherApp.controller.WeatherController$2::handle::Sat Jan 09 13:07:49 EET 2021::Display information about: Tarascon(Temperature: 4.66°C Humidity: 56 % Pressure: 1013 hpa)
+19::ro.mta.se.lab.weatherApp.model.HttpClient::execute::Sat Jan 09 18:01:48 EET 2021::Code: 200, Message: OK
+23::ro.mta.se.lab.weatherApp.model.HttpClient::execute::Sat Jan 09 18:01:49 EET 2021::Code: 404, Message: Not Found
+23::ro.mta.se.lab.weatherApp.model.HttpClient::execute::Sat Jan 09 18:01:49 EET 2021::Error: NO Internet connection! 
