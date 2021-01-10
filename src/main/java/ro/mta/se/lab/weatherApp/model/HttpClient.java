@@ -102,7 +102,7 @@ public class HttpClient implements IHttpClient{
 
         }
 
-        return new ParseJsonObject( content.toString() );
+        return FactoryParseObject.getParseObject("JSON", content.toString() );
 
     }
 
