@@ -1,12 +1,8 @@
-18::ro.mta.se.lab.weatherApp.model.HttpClient::execute::Sat Jan 09 13:07:41 EET 2021::Code: 200, Message: OK
-18::ro.mta.se.lab.weatherApp.controller.WeatherController$2::handle::Sat Jan 09 13:07:41 EET 2021::Display information about: Bucharest(Temperature: 3.31°C Humidity: 81 % Pressure: 1020 hpa)
-18::ro.mta.se.lab.weatherApp.model.HttpClient::execute::Sat Jan 09 13:07:44 EET 2021::Code: 200, Message: OK
-18::ro.mta.se.lab.weatherApp.controller.WeatherController$2::handle::Sat Jan 09 13:07:44 EET 2021::Display information about: Sibiu(Temperature: -3.0°C Humidity: 93 % Pressure: 1019 hpa)
-18::ro.mta.se.lab.weatherApp.controller.WeatherController$1::handle::Sat Jan 09 13:07:46 EET 2021::Select country: France
-18::ro.mta.se.lab.weatherApp.model.HttpClient::execute::Sat Jan 09 13:07:47 EET 2021::Code: 200, Message: OK
-18::ro.mta.se.lab.weatherApp.controller.WeatherController$2::handle::Sat Jan 09 13:07:47 EET 2021::Display information about: Paris(Temperature: 1.95°C Humidity: 87 % Pressure: 1023 hpa)
-18::ro.mta.se.lab.weatherApp.model.HttpClient::execute::Sat Jan 09 13:07:49 EET 2021::Code: 200, Message: OK
-18::ro.mta.se.lab.weatherApp.controller.WeatherController$2::handle::Sat Jan 09 13:07:49 EET 2021::Display information about: Tarascon(Temperature: 4.66°C Humidity: 56 % Pressure: 1013 hpa)
-19::ro.mta.se.lab.weatherApp.model.HttpClient::execute::Sat Jan 09 18:01:48 EET 2021::Code: 200, Message: OK
-23::ro.mta.se.lab.weatherApp.model.HttpClient::execute::Sat Jan 09 18:01:49 EET 2021::Code: 404, Message: Not Found
-23::ro.mta.se.lab.weatherApp.model.HttpClient::execute::Sat Jan 09 18:01:49 EET 2021::Error: NO Internet connection! 
+18::ro.mta.se.lab.weatherApp.controller.WeatherController$1::handle::Mon Jan 11 20:49:07 EET 2021::Select country: Italy
+18::ro.mta.se.lab.weatherApp.model.HttpClient::execute::Mon Jan 11 20:49:11 EET 2021::Code: 200, Message: OK
+18::ro.mta.se.lab.weatherApp.controller.WeatherController$2::handle::Mon Jan 11 20:49:11 EET 2021::Display information about: Rome(Temperature: 5.92°C Humidity: 81 % Pressure: 1013 hpa)
+18::ro.mta.se.lab.weatherApp.model.HttpClient::execute::Mon Jan 11 20:49:13 EET 2021::Code: 200, Message: OK
+18::ro.mta.se.lab.weatherApp.controller.WeatherController$2::handle::Mon Jan 11 20:49:13 EET 2021::Display information about: Napoli(Temperature: 8.81°C Humidity: 76 % Pressure: 1013 hpa)
+18::ro.mta.se.lab.weatherApp.controller.WeatherController$1::handle::Mon Jan 11 20:50:57 EET 2021::Select country: Romania
+18::ro.mta.se.lab.weatherApp.model.HttpClient::execute::Mon Jan 11 20:51:00 EET 2021::Code: 200, Message: OK
+18::ro.mta.se.lab.weatherApp.controller.WeatherController$2::handle::Mon Jan 11 20:51:00 EET 2021::Display information about: Sibiu(Temperature: -1.06°C Humidity: 100 % Pressure: 1018 hpa)

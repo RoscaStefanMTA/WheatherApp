@@ -1,0 +1,9 @@
+{
+  "apikey":"b7f04de2595bb2d357442a8a9bac4686",
+  "base_uri":"https://api.openweathermap.org",
+  "end_point":"data/2.5/weather",
+  "init_file":"src/main/resources/conf.txt",
+  "type_request": "cc",
+  "timeout":2000
+
+}
