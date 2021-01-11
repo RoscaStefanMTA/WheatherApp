@@ -47,7 +47,7 @@ public class WeatherManager {
 
 
 
-    private WeatherManager(String initFileName, IHttpClient httpClient) {
+    private WeatherManager(String initFileName, IHttpClient httpClient) throws FileHandlerException {
         this.initFileName = initFileName;
         this.httpClient = httpClient;
         this.initCitiesArray();
@@ -63,7 +63,7 @@ public class WeatherManager {
      * @return unica instanta a clasei WeatherManager
      */
 
-    public static WeatherManager getInstance(String initFileName,IHttpClient httpClient) {
+    public static WeatherManager getInstance(String initFileName,IHttpClient httpClient) throws FileHandlerException {
         if(instance==null){
             synchronized (WeatherManager.class) {
                 if(instance==null) {
@@ -78,16 +78,12 @@ public class WeatherManager {
      * initializeaza ArrayList-ul cities  cu obiecte de tip City pe baza informatiilor aflate in fisierul cu numele iniFileName
      */
 
-    private void initCitiesArray(){
-        try {
-            //initializare parametrii de configurare
-            IParseObject parseObject=FactoryParseObject.getParseObject("FILE", this.initFileName );
-            //inistializare lista de orase
-            this.cities= (ArrayList<City>) parseObject.parse();
-        } catch (FileHandlerException e) {
-            LogManager.getLogger( LoggerType.eventLogger).log( Level.ALL, "Error: " + e.getMessage());
-            new Alert(Alert.AlertType.ERROR, "This is an error!\n"+e.getMessage()).showAndWait();
-        }
+    private void initCitiesArray() throws FileHandlerException {
+
+        //initializare parametrii de configurare
+        IParseObject parseObject=FactoryParseObject.getParseObject("FILE", this.initFileName );
+        //inistializare lista de orase
+        this.cities= (ArrayList<City>) parseObject.parse();
     }
 
     /**

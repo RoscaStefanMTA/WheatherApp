@@ -173,9 +173,14 @@ public class WeatherController {
         } catch (FileHandlerException e) {
             LogManager.getLogger(LoggerType.eventLogger).log(Level.ALL, "Error: " + e.getMessage());
             new Alert(Alert.AlertType.ERROR, "This is an error!\n"+e.getMessage()).showAndWait();
+            System.exit( -1 );
         }
         //initializare lista tari
         countriesName=weatherManager.getCountriesName();
+        if(countriesName.size()==0){
+            new Alert(Alert.AlertType.INFORMATION, "Conf file is empty !\n").showAndWait();
+            System.exit( 0 );
+        }
         //setarea lista de tarii dispnibile
         countries.setItems( FXCollections.observableArrayList(countriesName));
         //setare unui hadler cand apare evenimete ce implica combobox-urile  din aplicatie
